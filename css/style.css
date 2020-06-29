@@ -1,0 +1,85 @@
+body {
+    text-decoration: currentColor;
+    font-family: "Consolas", monospace;
+    font-style: normal;
+    font-weight: bolder;
+    background-image: url('../img/field-1728099_1280.jpg');
+    background-size: cover;
+
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.boton {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 45px 34px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 30px 2px black;
+    font-family: "Consolas", monospace;
+
+}
+
+
+.mostrarimagen {
+
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    margin-right: 20px;
+    float: left;
+
+}
+
+.descripcion {
+    color: black;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: "Consolas", monospace;
+    font-weight: bolder;
+
+}
+
+.botoncito {
+    margin-top: 108px;
+}
+
+#volverajugar {
+
+    border-bottom: black;
+    padding: 10px;
+    background-color: black;
+    font-weight: bolder;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-family: "Consolas", monospace;
+
+}
+
+.argentina {
+    width: 400px;
+    display: block;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.loguito {
+    float: right;
+}
